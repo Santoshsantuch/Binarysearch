@@ -1,0 +1,63 @@
+GenerateNewWord
+
+Problem Description
+You are in process of developing a new language with the help of alphabet's, number and special characters. You can decide your own sequence of these characters (alphabets, numbers, and special characters) while creating a new language.
+
+Suppose, you have created a sequence as something like "lkahgfswetimncx96345@#) (" and if the user enters any string like "Philacodist 2021" then your code should generate a new word with the help your new sequence by considering below rules:
+
+If the character of the string does not present in your sequence, then it should eliminate the character from the new word.
+If the character present in your sequence, then it should print as it is but you have to make sure it follows the same sequence, it means in the above example if the second character 'h' is present in the sequence but its position will not come second as fifth character 'a' will arrive before it as in our language sequence does matter.
+Assumption:
+
+Your sequence should not have duplicate characters, if contains then should display "New language Error"
+Alphabets are not case sensitive
+If string contains duplicate characters, then there will no change in position, it will remain as their places.
+Space is not a character, so include it in the same place as that in the string that to be translated. (Refer Examples section for more clarity).
+Constraints
+1<= S <=100
+
+1<= C <=100
+
+Input
+First line contains a string denoting the sequence of characters of your language(S)
+
+Second line contains a string denoting the sequence of characters to be transformed to your language(C)
+
+Output
+Print the converted string to your language, if possible, else print "New Language Error"
+
+Time Limit (secs)
+1
+
+Examples
+Example 1
+
+Input
+
+palskdjfieuryt93516247oh
+
+Philacodist 2021
+
+Output
+
+palsdiitoh 122
+
+Explanation-
+
+On comparison of string with sequence, we find there is no character 'c' in the sequence, so we removed it from the string to be converted. Based on Language sequence the characters are arranged to form a translated word.
+
+Example 2
+
+Input
+
+abcdehdghijklmn@4682##
+
+TCS
+
+Output
+
+New Language Error
+
+Explanation-
+
+On observing the sequence given, we find duplication of characters. Character 'd' is duplicated, so display 'New Language Error'.

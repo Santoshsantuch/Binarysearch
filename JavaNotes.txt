@@ -1,0 +1,32 @@
+Every programming language has a set of keywords which are reserved words having a predefined meaning. Each keyword represents a specific functionality in the language.
+
+A variable is a named memory location which holds some value. The value stored in a variable can vary 
+
+It can contain alphanumeric characters([a-z], [A-Z], [0-9]), dollar sign ($), underscore (_) 
+
+It should not start with a digit ([0-9]) 
+
+It should not have spaces 
+
+It should not be a Java keyword 
+
+It is case-sensitive 
+
+It has no length restrictions 
+
+ex-$myvariable is a valid identifier
+
+Data type defines the type of data that can be stored in the variable and the memory required by it.
+https://infyspringboard.onwingspan.com/common-content-store/Shared/Shared/Public/lex_auth_01287273098700390427_shared/web-hosted/assets/dataTypes.png
+
+A long value is assigned to the variable, suffixed with L (uppercase letter or lower case letter L can be used). E.g. long salary = 500000L; 
+
+A float value must be suffixed with F or f while assigning to the variable. E.g. float average = 78.6f;
+
+Implicit Type Conversion is also known as Widening conversion. It happens in the below scenarios: 
+
+When a value of a data type with smaller range is assigned to a variable of a compatible data type with larger range. 
+
+When two variables of different data types are involved in an expression, the value of smaller range datatype is converted to a value of larger range datatype and then the operation is performed. 
+
+Explicit Conversion is used when you want to assign a value of larger range data type to a smaller range data type. This conversion is not done by the compiler implicitly as there can be loss of data in some cases. Hence, programmer has to be cautious about such conversions. This is also known as Narrowing conversion. 
